@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="shop">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<script src="js/angular.js" type="text/javascript" charset="utf-8"></script>		
+		<!--<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="js/customFilter.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/angular-route.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/products.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/checkout.js" type="text/javascript" charset="utf-8"></script>
+		<title>商店</title>
+	</head>
+	<body class="container-fluid" ng-controller="mainCtrl">
+		<nav-bar></nav-bar>
+		<ng-view></ng-view>
+	</body>
+</html>
